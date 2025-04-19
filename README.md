@@ -17,4 +17,4 @@ A simple and clean TODO list web app built using **HTML**, **CSS**, and **JavaSc
 
 ## Live Demo
 
-[Click here to try it live]((https://github.com/Divyansh-redoc/Todo-app.git))
+[Click here to try it live](https://github.com/Divyansh-redoc/Todo-app.git)

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO-List</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body{
+            display: flex;
+            justify-content: center;
+            color: white;
+            background-color: #414141;
+        }
+        
+        h2{
+            padding: 10px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 15px;
+            text-decoration: underline;
+            outline: 1px solid #4f5d75;
+        }
+
+        .container{
+            background-color: #2d3142;
+            margin-top: 30px;
+            margin-left: 20px;
+            width: 500px;
+            height: 500px;
+            border: 2px solid black;
+            border-radius: 15px;
+            padding: 15px;
+            box-shadow: 7px 5px 20px #fff3b0,-7px -5px 20px #fff3b0;
+            
+        }
+        
+        #list-Items{
+            display: flex;
+            margin: 10px 0;
+            gap: 10px;
+            <!-- flex-wrap: wrap;  -->
+        }
+        
+        .inside{
+            display: flex;
+            margin: 15px;
+            align-items: center;
+            gap: 20px; 
+        }
+        
+        .inside p {
+            padding: 10px;
+            background-color: #4f5d7566;
+            border-radius: 15px;
+            width: 350px;
+        }
+        
+        .inside button {
+            border: none;
+            font-weight: bolder;
+            background-color: orange;
+            text-align: center;
+            width: 80px;
+            height: 30px;
+            border-radius: 15px;
+            <!-- padding: 10px; -->
+        }
+
+        input{
+            height: 25px;
+            padding: 5px;
+            <!-- max-width: 100%; -->
+        }
+        
+        #add{
+            background-color: orange;
+            border: none;
+            font-weight: bolder;
+            border-radius: 9px;
+            width: 60px;
+            height: 25px;
+            <!-- color: white; -->
+            <!-- background-color: #ef8354; -->
+        }
+        
+        #input_btn{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>TODO-List</h2>
+        <div id = "input_btn">
+            <input type="text" id="todo" class="list" name = "todo" placeholder = "Enter Your Todo" rows = "50" autofocus>
+            <button id="add">Add</button>
+        </div>
+        <!-- <div class = "inside"> -->
+            <!-- <p>helloworld</p> -->
+            <!-- <button>Click me</button> -->
+        <!-- </div> -->
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

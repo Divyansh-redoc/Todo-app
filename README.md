@@ -9,7 +9,6 @@ A simple and clean TODO list web app built using **HTML**, **CSS**, and **JavaSc
 - Mark tasks as completed (strike-through)
 - Input field auto-focus
 - Styled with custom CSS
-- [Optional] Integrated with Dummy API
 
 ## Screenshots
 

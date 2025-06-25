@@ -12,7 +12,7 @@ A simple and clean TODO list web app built using **HTML**, **CSS**, and **JavaSc
 
 ## Screenshots
 
-![App Screenshot](screenshot.png)
+![App Screenshot]([.png](https://github.com/Divyansh-redoc/Todo-app/commit/c0251401c867d60154d931c1ec6726b7f75d2187#diff-be65efcb3705e7c5702291a1b830403c159c5b9f88d62366ce372f1d377ceaa5))
 
 ## Live Demo
 
